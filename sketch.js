@@ -90,12 +90,14 @@ function createInteractionSet() {
   // Train button
   trainBtn = createButton("Train Machine");
   trainBtn.mousePressed(() => {
-    console.log("Train button clicked");
     classifier.train(function (loss) {
       // if the loss is null then the training is complete.
       if (!loss) {
         showText("Training Complete.. Show any trained object on camera.");
         startClassification = true;
+      } else {
+        showText("Training in progress");
+        startClassification = false;
       }
     });
   });
