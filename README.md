@@ -7,5 +7,5 @@ https://murlidharvarma.github.io/machine-learning
 Hope you like it!
 
 ## Preview
-![Alt text](/preview.gif?raw=true "Preview")
+![Alt text](/preview.png?raw=true "Preview")
 

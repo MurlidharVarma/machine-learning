@@ -24,7 +24,7 @@ function setup() {
   });
 
   width = windowWidth - 50;
-  height = width / 1.6;
+  height = width / 1.6 + 2 * bw + 50;
   CANVAS = createCanvas(width, height);
   CANVAS.parent("#canvas-container");
   learnCounter = 0;
